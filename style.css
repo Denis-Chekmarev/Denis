@@ -1,7 +1,7 @@
 body{
     background: url(bg.jpg);
 }
-table.tab{
+table{
 	color: #fff;
 }
 
@@ -31,19 +31,18 @@ div.blo{
 a.back{
 	color: green;
 	font-size: 40;
-	margin-left: 45%;
-	position: absolute;
-	bottom: 10px;
+	margin-top: -50%;
+	margin-left: 300px;
 }
 
 div.bl_1{
 	border: 4px solid white;
-	padding: 5px;
-	margin-left: 30px;
+	padding-top: 200px;
+	margin-left: 100px;
 	margin-top: 30px;
 	width: 600px;
 	background: #6a7946;
-	color: white;
+	color: Black;
 	font-family : arial;
 	
 }
@@ -63,63 +62,9 @@ div.bl2{
 div.bl3{
 	padding: 2px;
 	margin-left: 80px;
-	margin-top: -15px;
+	margin-top: -5px;
 	width: 350px;
 	opacity: 0.8;
 	background: #6a9686;
 	color: black;
-}
-
-.wt{
-	color: White;
-}
-
-.psevdo{
-	display: none;
-}
-
-.psevdo:target{
-	display: block;
-}
-
-div.psevdo::first-letter{
-	font-size: 50px;
-	color: red;
-}
-
-div.yy{
-	font-size: 40px;
-}
-
-table.psevdo{
-	color: #fff;
-	width: 1000px;
-	margin-top: 20px;
-}
-
-tr:nth-child(even){
-	color: #ecff01;
-	font-weight: 4px;
-	text-align: center;
-	background-color: #ffd6;
-}
-
-tr:nth-child(odd){
-	color: #ff00fe;
-	text-align: right;
-	background-color: #f7ff01;
-}
-
-tr:first-child{
-	color: White;
-	font-size: 30px;
-	border: 4px solid White;
-	background-color: #fe00ff;
-}
-
-tr:last-child{
-	font-size: 20px;
-	color: #fffc;
-	border: 6px solid ;
-	background-color: #afebd;
 }

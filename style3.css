@@ -1,0 +1,51 @@
+body{
+    background: url(bg.jpg);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    color: white;
+    margin-left: 15px;
+}
+
+button{
+    margin-left: 15px;
+}
+
+form{
+    color: white;
+}
+
+.Blo1{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #657b11;
+    border: 1px solid black;
+}
+
+.inp1{
+    margin-left: 20%;
+    width: 400px;
+}
+
+.Bt{
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.pdf{
+    margin-left: 50px;
+    background-color: #6a9126;
+    background-size: 40px;
+    color: #403491;
+    width: 40px;
+    font-size: 30px;
+}

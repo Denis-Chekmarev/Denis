@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <script src="JS.js"></script>
+    <title>5я работа</title>
+</head>
+<body>
+    <br>
+    <div class="Blo1">
+        <p>
+            1.	Что такое звук
+        </p>
+
+        <form id="q1">
+            <input type="radio" id="r1" name="r">
+                1)	Звук — физическое явление, представляющее собой распространение в виде упругих волн механических колебаний<br>
+            <input type="radio" id="r2" name="r">
+                2)	Звук – явление, которое происходит от каких-либо колебаний воздуха<br>
+            <input type="radio" id="r3" name="r">
+                3)	Звук – процесс в ухе человека, возникающий от раздражителей (муз. Инструмент, гром и тд.)<br>
+            <input type="radio" id="r4" name="r">
+                4)	Звук – это механические волны<br>
+        </form>
+    </div>
+    <div class="Blo1">
+        <p>
+            2.	Скорость звука больше: (выбрать две среды, в которых скорость звука больше, чем в других)
+        </p>
+        <form id="q2">
+            <input type="checkbox" id="chek1">1)	В газах<br>
+            <input type="checkbox" id="chek2">2)	В жидкостях<br>
+            <input type="checkbox" id="chek3">3)	В твердых телах<br>
+            <input type="checkbox" id="chek4">4)	Одинакова в любой среде<br>
+        </form>
+    </div>
+    <div class="Blo1">
+        <p>
+            3.	Какой диапазон частот слышит человеческий слух (указать числа в Гц через дефис без пробела)
+        </p>
+        <form id="q3">
+            <input type="text" id="text1" class="inp1"><br>
+        </form>
+    </div>
+
+    <div class="Blo1">
+        <p>
+            4.	Звук не может распространяться:
+        </p>
+        <form id="q4">
+            <input type="radio" name="r4">
+                1)	В воде<br>
+            <input type="radio" name="r4">
+            2)	В воздухе<br>
+            <input type="radio" name="r4">
+            3)	В вакууме<br>
+            <input type="radio" name="r4">
+            4)	В стекле<br>
+        </form>
+    </div>
+
+    <div class="Blo1">
+        <p>
+            5.	Шум:
+        </p>
+        <form id="q5">
+            <input type="radio" name="r5">
+            1)	Благотворно влияет на здоровье людей<br>
+            <input type="radio" name="r5">
+            2)	Вреден для нервов, но полезен для сердца<br>
+            <input type="radio" name="r5">
+            3)	Вызывает истощение коры головного мозга<br>
+            <input type="radio" name="r5">
+            4)	Вреден для сердца, но полезен для слухового аппарата<br>
+        </form>
+    </div>
+
+    <div class="Blo1">
+        <p>
+            6.	Раздел физики, изучающий звук называется:
+        </p>
+        <form id="q6">
+            <input type="radio" name="r6">
+            1)	Оптикой<br>
+            <input type="radio" name="r6">
+            2)	Акустикой<br>
+            <input type="radio" name="r6">
+            3)	Дифракцией<br>
+            <input type="radio" name="r6">
+            4)	Кинематикой<br>
+        </form>
+    </div>
+
+    <div class="Blo1">
+        <p>
+            7.	К приемникам звука не относят:
+        </p>
+        <form id="q7">
+            <input type="radio" name="r7">
+            1)	Уши животных<br>
+            <input type="radio" name="r7">
+            2)	Микрофон<br>
+            <input type="radio" name="r7">
+            3)	Камертон<br>
+            <input type="radio" name="r7">
+            4)	Гидрофон<br>
+        </form>
+    </div>
+
+    <div class="Blo1">
+        <p>
+            8.	Эхо объясняется:
+        </p>
+        <form id="q8">
+            <input type="radio" name="r8">
+            1)	Дифракцией волн<br>
+            <input type="radio" name="r8">
+            2)	Интерференцией<br>
+            <input type="radio" name="r8">
+            3)	Преломлением<br>
+            <input type="radio" name="r8">
+            4)	Отражением<br>
+        </form>
+    </div>
+
+    <div class="Blo1">
+        <p>
+            9.	Ультразвук – это волна частотой:
+        </p>
+        <form id="q9">
+            <input type="radio" name="r9">
+            1)	От 0 до 20 Гц<br>
+            <input type="radio" name="r9">
+            2)	От 20 до 2000 Гц<br>
+            <input type="radio" name="r9">
+            3)	От 2000 до 20000 Гц<br>
+            <input type="radio" name="r9">
+            4)	Более 20000 Гц<br>
+        </form>
+    </div>
+
+    <div class="Blo1">
+        <p>
+            10.	Высота звука определяется
+        </p>
+        <form id="q10">
+            <input type="radio" name="r10">
+            1)	Периодом колебаний<br>
+            <input type="radio" name="r10">
+            2)	Тембром<br>
+            <input type="radio" name="r10">
+            3)	Амплитудой колебаний<br>
+            <input type="radio" name="r10">
+            4)	Частотой<br>
+        </form>
+    </div>
+
+    <p id="Result"></p>
+
+    <button class="Bt" onclick="main()">
+        Рассчитать!
+    </button>
+    <a href="Вопросы%20к%20тесту.pdf" class="pdf">Ссылка на файл с вопросами и ответами</a>
+</body>
+</html>
